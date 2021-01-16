@@ -1,0 +1,12 @@
+spring:
+  cloud:
+    stream:
+      bindings:
+        input:
+          destination: user-details
+          group: usage-cost-consumer
+        output:
+          destination: usage-cost
+          producer:
+            requiredGroups:
+              - logger
