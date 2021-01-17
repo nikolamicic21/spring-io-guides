@@ -1,7 +1,3 @@
-plugins {
-    kotlin("plugin.spring") version "1.4.21"
-}
-
 dependencies {
     implementation("org.springframework.boot:spring-boot-starter-integration")
     implementation("org.springframework.integration:spring-integration-feed")

@@ -1,8 +1,3 @@
-
-plugins {
-    kotlin("plugin.spring") version "1.4.21"
-}
-
 configurations {
     compileOnly {
         extendsFrom(configurations.annotationProcessor.get())
