@@ -18,7 +18,7 @@ class AsyncConfig {
         }
         executor.setQueueCapacity(500)
         executor.setThreadNamePrefix("GithubLookup-")
-        executor.initialize()
+//        executor.initialize()
         return executor
     }
 
