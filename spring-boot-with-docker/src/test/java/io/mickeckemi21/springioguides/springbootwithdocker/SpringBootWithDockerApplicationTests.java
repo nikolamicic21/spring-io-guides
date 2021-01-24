@@ -1,10 +1,10 @@
-package io.mickeckemi21.springioguides.springbootdocker;
+package io.mickeckemi21.springioguides.springbootwithdocker;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringBootDockerApplicationTests {
+class SpringBootWithDockerApplicationTests {
 
     @Test
     void contextLoads() {
